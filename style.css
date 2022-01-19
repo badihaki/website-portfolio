@@ -7,21 +7,27 @@ h1{
     font-size: 36px;
     text-align: center;
 }
+#navi{
+    left: 0px;
+}
 #intro{
+    background-color: lightcyan;
     text-align: center;
     font-size: 18px;
     line-height: 20px;
     font-family: cursive;
     font-weight: bold;
-}
-.regularText{
-    font-family: cursive;
-    text-align: center;
-    font-size: 16px;
+    margin-left: 45px;
+    margin-right: 25px;
 }
 #content{
     /*
     to be used later for the main content block
     */
     text-align: center;
+}
+.regularText{
+    font-family: cursive;
+    text-align: center;
+    font-size: 16px;
 }
