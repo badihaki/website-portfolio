@@ -1,7 +1,27 @@
 body{
     background: lavenderblush;
+    align-items: center;
 }
 h1{
     font-family: fantasy;
     font-size: 36px;
+    text-align: center;
+}
+#intro{
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.regularText{
+    font-family: cursive;
+    text-align: center;
+    font-size: 16px;
+}
+#content{
+    /*
+    to be used later for the main content block
+    */
+    text-align: center;
 }
