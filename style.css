@@ -8,6 +8,8 @@ body{
 h1{
     color: rgb(190, 195, 233);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
     font-size: 36px;
     text-align: center;
 }
@@ -31,6 +33,13 @@ a:active{
 #navi{
     left: 0px;
     margin-left: 15px;
+    margin-right: 1825px;
+    background: linear-gradient(165deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 47%, rgba(78,79,189,1) 100%);
+    background-size: 300px;
+}
+div#navi > h2{
+    color: rgb(255, 240, 249);
+    size: 45px;
 }
 #intro{
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 12%, rgba(78,79,189,1) 75%);
