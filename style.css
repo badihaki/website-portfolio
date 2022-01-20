@@ -1,33 +1,56 @@
 body{
-    background: lavenderblush;
+    margin: 0px;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 47%, rgba(78,79,189,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     align-items: center;
 }
 h1{
-    font-family: fantasy;
+    color: rgb(190, 195, 233);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
     text-align: center;
 }
+a:link{
+    color: lavenderblush;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:visited{
+    color: lightslategrey;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: tomato;
+}
 #navi{
     left: 0px;
+    margin-left: 15px;
 }
 #intro{
-    background-color: lightcyan;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 12%, rgba(78,79,189,1) 75%);
+    color: lavenderblush;
     text-align: center;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 22px;
     font-family: cursive;
     font-weight: bold;
-    margin-left: 45px;
-    margin-right: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 #content{
     /*
     to be used later for the main content block
     */
+    color: rgb(127, 144, 202);
     text-align: center;
-}
-.regularText{
-    font-family: cursive;
-    text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    font-family:fantasy;
+    line-height: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
