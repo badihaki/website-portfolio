@@ -63,3 +63,11 @@ div#navi > h2{
     margin-left: 30%;
     margin-right: 30%;
 }
+.gallery{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.gallery img{
+    transition: 1s;
+    size: 10%;
+}
