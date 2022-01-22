@@ -1,7 +1,6 @@
 /*
 starting stuff
 */
-lineBreak = document.createElement("br");
 
 const navi=document.createElement("div");
 navi.id="navi";

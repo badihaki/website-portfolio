@@ -64,10 +64,30 @@ div#navi > h2{
     margin-right: 30%;
 }
 .gallery{
+    /*
     margin-left: 25px;
     margin-right: 25px;
+    */
+    width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
 }
 .gallery img{
-    transition: 1s;
-    size: 10%;
+    transition: 1s ease-in-out;
+    padding: 15px;
+    width: 200px;
+    filter: grayscale(100%);
+    z-index: 0;
+    
+}
+.gallery img:hover{
+    z-index: 1;
+    filter: grayscale(25%);
+    transform: scale(1.5);
+    transform-origin: left;
+    width: 600px;
+    position: absolute;
 }
