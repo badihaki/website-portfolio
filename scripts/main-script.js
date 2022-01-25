@@ -33,13 +33,12 @@ navi.appendChild(document.createElement("br"));
 /*
     gotta figure out how to disable right clicks here
 */
-const input = document.getElementById(`content`);
+const input = document.querySelectorAll("img")
 
 function clickAlert(){
     alert(`Images are property of B. Haki M.`);
 }
 
-input.addEventListener(`click`, clickAlert);
 
 
 /*navigation*/

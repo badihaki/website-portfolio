@@ -59,6 +59,7 @@ div#navi > h2{
     color: rgb(127, 144, 202);
     text-align: center;
     font-size: 18px;
+    letter-spacing: 0.5px;
     font-family:fantasy;
     line-height: 20px;
     margin-left: 30%;
@@ -109,17 +110,21 @@ div#navi > h2{
     padding: 15px;
     width: 200px;
     filter: grayscale(100%);
-    z-index: 1;
     position: relative fixed;
+    display: inline-block;
+    border-radius: 45px;
+    box-shadow: -65px 45px 50px 1px rgb(37 37 77);
 }
 .gallery img:hover{
-    z-index: 2;
     filter: grayscale(0%);
     transform: scale(1.35);
     transform-origin: left;
     width: 600px;
     overflow: visible;
-    /*position: absolute;*/
+    border-radius: 0px;
+    box-shadow: 0 0 0px;
+    z-index: 3;
+    position: relative;
 }
 .gallery h2{
     color: mintcream;
