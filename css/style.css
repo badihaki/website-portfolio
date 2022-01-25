@@ -50,6 +50,7 @@ div#navi > h2{
     font-weight: bold;
     margin-left: 25%;
     margin-right: 25%;
+    z-index: 0;
 }
 #content{
     /*
@@ -63,6 +64,32 @@ div#navi > h2{
     margin-left: 30%;
     margin-right: 30%;
 }
+#goof > p{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    /*color: lavenderblush;*/
+    background: -webkit-linear-gradient(lavenderblush, lightslategrey, mintcream);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: fixed;
+}
+#goof > img{
+    align-items: right;
+    margin-left: 55%;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+    width: 250px;
+    overflow: visible;
+    position: fixed;
+}
 .gallery{
     /*
     margin-left: 25px;
@@ -74,20 +101,34 @@ div#navi > h2{
     margin-right: auto;
     overflow: hidden;
     text-align: center;
+    z-index: 1;
+    overflow: visible;
 }
 .gallery img{
-    transition: 1s ease-in-out;
+    transition: 0.2s ease-in-out;
     padding: 15px;
     width: 200px;
     filter: grayscale(100%);
-    z-index: 0;
-    
+    z-index: 1;
+    position: relative fixed;
 }
 .gallery img:hover{
-    z-index: 1;
-    filter: grayscale(25%);
-    transform: scale(1.5);
+    z-index: 2;
+    filter: grayscale(0%);
+    transform: scale(1.35);
     transform-origin: left;
     width: 600px;
-    position: absolute;
+    overflow: visible;
+    /*position: absolute;*/
+}
+.gallery h2{
+    color: mintcream;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.gallery p{
+    color: lavenderblush;
+    font-size: 18px;
+    font-family: cursive;
 }

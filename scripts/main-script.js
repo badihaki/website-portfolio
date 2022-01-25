@@ -1,7 +1,6 @@
 /*
 starting stuff
 */
-
 const navi=document.createElement("div");
 navi.id="navi";
 document.querySelector("body").appendChild(navi);
@@ -31,7 +30,16 @@ navi.appendChild(linkAbout);
 
 navi.appendChild(document.createElement("br"));
 
+/*
+    gotta figure out how to disable right clicks here
+*/
+const input = document.getElementById(`content`);
 
+function clickAlert(){
+    alert(`Images are property of B. Haki M.`);
+}
+
+input.addEventListener(`click`, clickAlert);
 
 
 /*navigation*/
